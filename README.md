@@ -20,4 +20,16 @@ DELETE_ORIGINAL=true
 MAX_FILES=1000
 
 ```
-![lambda控制台插入](<variables.png>)
+![lambda console pic](<variables.png>)
+
+- Or you can first run deploy.sh to get the zip file then run aws-cli-deploy.sh for the whole process
+
+- make sure the IAM role has the policy.json file associated
+
+- create cloudwatch event or Eventbridge to add triggers
+   - rate (5 minutes) (just for example)
+
+- here's the outputs after lambda executed
+
+
+![executed](<executed.png>)
