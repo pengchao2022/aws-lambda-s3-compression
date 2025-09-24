@@ -10,6 +10,16 @@ This tutorial will use the AWS lambda to compress the file uploaded in source s3
 
 ## Usage
 
+- Install the necessary python packages
+- (for Mac)
+```shell
+pip install -r requirements.txt --break-system-package 
+```
+- (for linux and others)
+```shell
+pip install -r requirements.txt 
+```
+
 - Setup variables:
 ```shell
 SOURCE_BUCKET=lambdaneedstocompression909090
